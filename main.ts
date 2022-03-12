@@ -1,6 +1,5 @@
 let y = 0
 let x = 0
-joystickbit.initJoystickBit()
 radio.setGroup(1)
 basic.forever(function () {
     x = Math.map(joystickbit.getRockerValue(joystickbit.rockerType.X), 1023, 0, -100, 100)
